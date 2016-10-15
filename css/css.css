@@ -1,0 +1,302 @@
+/*通用样式*/
+body{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0}
+.z{
+    clear: both;
+    float: left;}
+.y{
+    clear: both;
+    float:right;}
+
+/*顶部*/
+.top{
+    width: 1000px;
+    height:27px;
+    line-height: 27px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+.top span{
+    float: right;
+}
+.top a{
+    color:#8b8b8b;
+    text-decoration: none;
+    font-size: 15px;
+}
+.top a:hover{
+    color:red;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*logo*/
+.logo{
+    width: 1000px;
+    height:80px;
+    margin: 0 auto;
+}
+.right{
+    float:right;
+    padding:26px 0;
+}
+#tel{
+    margin-right:30px;
+}
+#red{
+    color:red;
+    font-size: 22px;
+}
+
+/*导航*/
+.daohang{
+    height: 40px;
+    background-color:#766d66;
+}
+.zuo{
+    float: left;
+}
+.daohang ul{
+    margin:10px;
+}
+.daohang li{
+    list-style: none;
+    float: left;
+    margin:0 20px;
+}
+.daohang a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.daohang a:hover{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+
+/*搜索*/
+.sousuo{
+    width: 300px;
+    height:21px;
+    float: right;
+}
+table{
+    background-color: white;
+}
+.s_z input{
+    border:none;
+}
+.s_y{
+    height: 21px;
+    background: url("../images/search.jpg") no-repeat;
+}
+.s_y button{
+    width:25px;
+    height:21px;
+    background: none;
+    border:none;
+    cursor: pointer;
+}
+
+/*轮播图*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+div.LunBo {
+    position: relative;
+    list-style-type: none;
+    height: 310px;
+    width: 1000px;
+}
+div.LunBo ul li {
+    position: absolute;
+    height: 310px;
+    width: 1000px;
+    left: 0;
+    top: 0;
+    display: none;
+}
+div.LunBo ul li.CurrentPic {
+    display: block;
+}
+div.LunBo div.LunBoNum {
+    position: absolute;
+    left: 850px;
+    top:250px;
+    width: 50px;
+    text-align: right;
+    background-color: #999;
+    padding-left: 10px;
+}
+div.LunBo div.LunBoNum span {
+    height: 20px;
+    width: 15px;
+    display: block;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    cursor: pointer;
+}
+div.LunBo div.LunBoNum span.CurrentNum {
+    background-color: #3F6;
+}
+
+
+/*左边新闻*/
+.z-zuo{
+    float: left;
+    margin-top:5px;
+}
+.zuo-title{
+    width:220px;
+    height:36px;
+    border:1px solid #e8e9eb;
+    background-color: #f6f6f6;
+}
+.zuo-title h2{
+    font-family: 宋体;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 36px;
+    margin-left: 20px;
+}
+.zuo-content{
+    clear: both;
+    float: left;
+    width:200px;
+    height:350px;
+    border-left:1px solid #e8e9eb;
+    border-right:1px solid #e8e9eb;
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+.zuo-content ul li{
+    list-style: none;
+    line-height: 32px;
+}
+.zuo-content ul li a{
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+.zuo-content ul li a:hover {
+    font-size: 18px;
+    color: blue;
+    text-decoration: none;
+}
+
+.z-you{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.you-title {
+    width: 770px;
+    height: 36px;
+    border-top: 1px solid #e8e9eb;
+    border-left: 1px solid #e8e9eb;
+    border-right: 1px solid #e8e9eb;
+    border-bottom: 3px solid red;
+}
+.you-title h2{
+    font-family: 宋体;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 36px;
+    margin-left: 20px;
+}
+.you-content {
+    width: 765px;
+    height: 350px;
+    border-right: 1px solid #e8e9eb;
+    border-left: 1px solid #e8e9eb;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.you-content ul li{
+    list-style: none;
+    line-height: 25px;
+    border-bottom: 1px dashed #e8e9eb;
+}
+.you-content a{
+    font-size: 15px;
+    text-decoration:none;
+    color: #000;
+}
+.you-content a:hover{
+    font-size: 15px;
+    text-decoration:none;
+    color:blue;
+}
+.you-content ul li time{
+    float: right;
+    margin-right: 10px;
+}
+
+
+.but form{
+    width:500px;
+    height:40px;
+    margin: 30px auto;
+}
+.but form button{
+    width: 50px;
+    height:25px;
+    background-color: white;
+    border:1px solid #000000;
+    cursor: pointer;
+}
+
+
+.dibu{
+    clear: both;
+    width: 1000px;
+    height: 200px;
+    background-color: #e8e8e8;
+}
+.service{
+    width: 115px;
+    float: left;
+    padding:25px 40px;
+}
+.line{
+    position: relative;
+    top:25px;
+    float: left;
+
+}
+.service ul li{
+    list-style: none;
+    line-height: 25px;
+    font-size: 20px;
+    color:#999999;
+}
+.service a{
+    text-decoration: none;
+    font-size: 15px;
+    color:#999999;
+}
+.service a:hover{
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+}
+.weixin{
+    color:#999999;
+    width: 115px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.ziti{
+    font-size: 18px;
+}
