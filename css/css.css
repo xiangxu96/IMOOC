@@ -87,10 +87,17 @@ body{
 table{
     background-color: white;
 }
+.s_z{
+    float: left;
+    width:170px;
+    height:21px;
+}
 .s_z input{
     border:none;
+    height:21px;
 }
 .s_y{
+    float: left;
     height: 21px;
     background: url("../images/search.jpg") no-repeat;
 }
